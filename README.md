@@ -29,7 +29,7 @@ The system consists of multiple microservices communicating asynchronously using
 ## **Requirements**
 
 - Java 21  
-- Maven 3.8+  
+- Maven 3.9.9   
 - Docker 20+ and Docker Compose 3.8+  
 - IDE (IntelliJ IDEA, VS Code, or Eclipse)  
 - Optional: Postman for API testing  
