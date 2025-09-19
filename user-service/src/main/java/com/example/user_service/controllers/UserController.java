@@ -35,7 +35,7 @@ public class UserController {
             // Send message and wait for ack
             SendResult<String, String> result = kafkaTemplate.send("user-events", "User created: " + user.get("name"))
                     .get(); // get() blocks
-
+            System.out.println(result +"OOOOOOOOOOO");
             // Get RecordMetadata from SendResult
             RecordMetadata metadata = result.getRecordMetadata();
 
