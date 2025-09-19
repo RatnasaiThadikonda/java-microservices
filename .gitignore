@@ -1,0 +1,25 @@
+# Maven build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle build
+build/
+.gradle/
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Spring Boot specific
+application-*.yml
+application-*.properties
